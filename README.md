@@ -1,4 +1,5 @@
-<img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
+
+
 
 ## Codelab 🧪 Implementing a REST API Service
 
@@ -45,5 +46,6 @@ Good code is about details. Follow each step carefully and make sure your code i
 ## Codelab 🧪
 
 🗣️ "I hear and I forget I see and I remember I do and I understand." Confucius
+
 
 
