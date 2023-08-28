@@ -3,6 +3,7 @@ package org.adaschool.api.service.user;
 import org.adaschool.api.repository.user.User;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
@@ -27,7 +28,7 @@ public class UsersServiceMap implements UsersService {
 
     @Override
     public List<User> all() {
-        return (List<User>) storeUser;
+        return new ArrayList<User>(storeUser.values());
     }
 
     @Override

@@ -3,6 +3,7 @@ package org.adaschool.api.service.product;
 import org.adaschool.api.repository.product.Product;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
@@ -27,7 +28,7 @@ public class ProductsServiceMap implements ProductsService {
 
     @Override
     public List<Product> all() {
-        return (List<Product>) productStore;
+        return new ArrayList<Product>(productStore.values());
     }
 
     @Override

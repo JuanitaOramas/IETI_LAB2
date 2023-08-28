@@ -7,6 +7,7 @@ import org.adaschool.api.service.user.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.net.URI;
 import java.util.List;
