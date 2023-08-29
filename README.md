@@ -1,5 +1,5 @@
 
-
+### Authors: Juanita Oramas y Wilson Delgado
 
 ## Codelab 🧪 Implementing a REST API Service
 
@@ -42,6 +42,14 @@ Good code is about details. Follow each step carefully and make sure your code i
 * MongoDB.
 * Java.
 * Spring Boot.
+
+
+## Swagger Documentation
+You can access with:
+
+``` http://localhost:8080/swagger-ui/index.html ```
+
+![img.png](img.png)
 
 ## Codelab 🧪
 

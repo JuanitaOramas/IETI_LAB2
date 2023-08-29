@@ -21,9 +21,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
 	implementation 'org.springframework.security:spring-security-crypto:6.0.1'
-	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
-	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
-	implementation 'javax.servlet:javax.servlet-api:4.0.1'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2' // add Swagger
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 }
